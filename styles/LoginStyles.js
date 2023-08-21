@@ -73,9 +73,10 @@ const styles = StyleSheet.create({
   },
   divider: {
     flex: 1,
-    height: 1,
-    backgroundColor: '#ccc',
+    borderBottomWidth: 1.5,
+    borderBottomColor: '#ccc',
     borderStyle: 'dashed',
+
   },
   orText: {
     color: '#fff',

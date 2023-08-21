@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TextInput, TouchableOpacity, Image } from "react-native";
+import { View, Text, TextInput, TouchableOpacity, SafeAreaView } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { LinearGradient } from "expo-linear-gradient";
 import styles from "../styles/LoginStyles";
@@ -21,8 +21,8 @@ const LoginScreen = () => {
 
   return (
     <LinearGradient
-      colors={["rgba(229, 178, 202, 1)", "rgba(205, 130, 222, 1)"]}
-      style={styles.container}
+    colors={["rgba(229, 178, 202, 1)", "rgba(205, 130, 222, 1)"]}
+    style={styles.container}
     >
       <View style={styles.container}>
         <LoginImage />
